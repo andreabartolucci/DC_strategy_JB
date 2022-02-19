@@ -1,0 +1,8 @@
+,TRAINING,,,,,,,,,,,,,,,,,,FORECAST,,,
+,X,,,,,,,,,,,,,,,,,,,hst.ret,,
+,returns data,,,timedummies,,,,,,Y,,,,,,,,,havg.ret,0.001,0.01,0.01
+T,havg.ret,hstd.ret,volume,8-10am,10-12am,12-2pm,2-4pm,,,TMV1-DC1,TMV2-DC1,TMV1-DC2,TMV2-DC2,,,,,,-0.1,TMV1-DC1,TMV1-DC1,TMV1-DC1
+100,0.01,0.02,1000,0,1,0,0,,,0,0,1,0,,,,,,-0.05,TMV1-DC2,TMV2-DC2,TMV2-DC1
+101,-0.001,0.025,1000,0,0,1,0,,,1,0,0,0,,,,,,0,TMV2-DC1,TMV1-DC2,TMV2-DC2
+102,,,,,,,,,,0,0,0,1,,,,,,0.05,TMV1-DC2,TMV2-DC2,TMV2-DC1
+,,,,,,,,,,,,,,,,,,,0.1,TMV2-DC1,TMV2-DC1,TMV2-DC1
